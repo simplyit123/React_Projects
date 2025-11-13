@@ -1,0 +1,133 @@
+
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 8px 8px 0px 8px;
+
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.contactSection{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.contactSection h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.contactSection p{
+    font-size: 16px;
+    margin: 0 0 30px 0;
+}
+
+
+
+ /* Contact form */
+
+ .form_container{
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: end;
+ }
+
+.btns_div{
+    display: flex;
+    gap: 30px;
+}
+
+.primary_btn{
+    background-color: black;
+    min-width: 220px;
+    color: white;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.outline_btn{
+    background-color: white;
+    min-width: 220px;
+    color: black;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+    border-color: black;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.form{
+    display:  flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.contactForm_container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.contactForm_container input{
+    height: 40px;
+    width: 100%;
+    padding: 0;
+}
+
+.contactForm_container label{
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    padding: 0 10px;
+    background-color: white;
+
+}
+
+.img{
+    display: flex;
+}
+
+.img img{
+    max-width: 700px;
+}
