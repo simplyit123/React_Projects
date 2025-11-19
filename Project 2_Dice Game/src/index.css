@@ -1,11 +1,9 @@
-<<<<<<< HEAD
+
 /* @import "tailwindcss";
 
 
 :root {
-=======
 /* :root {
->>>>>>> ff190412dda8a0a08574a86b4f0c4ae819a812da
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -32,17 +30,15 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-<<<<<<< HEAD
   justify-content: center;
   align-items: center;
   min-width: 320px;
   min-height: 100vh;
-=======
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
   justify-content: center;
->>>>>>> ff190412dda8a0a08574a86b4f0c4ae819a812da
+
 }
 
 h1 {
@@ -84,6 +80,6 @@ button:focus-visible {
 }
 
  */
-=======
-} */
->>>>>>> ff190412dda8a0a08574a86b4f0c4ae819a812da
+
+
+

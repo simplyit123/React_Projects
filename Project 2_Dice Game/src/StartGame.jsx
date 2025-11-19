@@ -20,12 +20,13 @@ const StartGame = ({toggle}) => {
 export default StartGame;
 
 let Container = styled.div`
-  max-width: 1180px;
+  max-width: 1380px;
   display: flex;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
   height: 100vh;
+
 
   .content {
     h1 {
