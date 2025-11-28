@@ -46,12 +46,12 @@ let Button = styled.button`
   display: flex;
   height: 72px;
   width: 72px;
-  border: 1px solid black;
+  border: none;
   color: black;
   font-size: 24px;
   font-weight: 700;
   align-items: center;
   justify-content: center;
-  background-color: ${(props) => (props.$isSelected ? "black" : "white")};
-  color: ${(props) => (!props.$isSelected ? "black" : "white")};
+  background-color: ${(props) => (props.$isSelected ? "#FF6B35" : "black")};
+  color: ${(props) => (!props.$isSelected ? "#FF6B35" : "#F5E7C6")};
 `;

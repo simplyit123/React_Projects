@@ -20,18 +20,24 @@ const StartGame = ({toggle}) => {
 export default StartGame;
 
 let Container = styled.div`
-  max-width: 1380px;
+  max-width: 1200px;
+  overflow: hidden;
   display: flex;
   margin: 0 auto;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 100vh;
 
+  img{
+    width: 600px;
+    transform: rotate(30deg);
+  }
 
   .content {
     h1 {
       font-size: 96px;
       white-space: nowrap;
+      color: #2E2E2E;
     }
   }
 `;

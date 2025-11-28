@@ -5,7 +5,9 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  background-color: #F5E7C6;
 }
+
 
 body{
     margin: 0;
@@ -24,22 +26,4 @@ body{
     flex-direction: column;
     height: calc(100vh -72px);
 }
-/* nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 72px;
-    padding: 8px 8px 0px 8px;
-
-}
-
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-.logo img{
-    width: 100px;
-} */
 

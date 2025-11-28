@@ -17,7 +17,7 @@ export default Rules
 
 let RulesContainer = styled.div`
     padding: 20px;
-    background-color: #fbf1f1;
+    background-color: white;
     max-width: 800px;
     margin: 0 auto;
     margin-top: 50px;
@@ -26,13 +26,16 @@ let RulesContainer = styled.div`
     
     h3{
         font-size: 24px;
+        background-color: white;
     }
     .text{
       margin-top: 24px;
+      background-color: white;
     }
 
     p{
       margin: 0;
       padding: 0;
+      background-color: white;
     }
 `

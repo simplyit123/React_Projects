@@ -27,5 +27,6 @@ justify-content: center;
     p{
         font-size: 24px;
         font-weight: 500;
+        color: #FF6B35;
     }
 `
